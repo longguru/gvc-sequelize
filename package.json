@@ -1,24 +1,30 @@
 {
-  "name": "wms-sequelize",
+  "name": "gvc-sequelize",
   "version": "1.0.0",
-  "description": "Woodsland ORM Database",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/longzip/wms-sequelize.git"
+    "url": "git+https://github.com/longguru/gvc-sequelize.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/longzip/wms-sequelize/issues"
+    "url": "https://github.com/longguru/gvc-sequelize/issues"
   },
-  "homepage": "https://github.com/longzip/wms-sequelize#readme",
+  "homepage": "https://github.com/longguru/gvc-sequelize#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "mysql2": "^2.1.0",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "tedious": "^9.2.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
   }
 }
